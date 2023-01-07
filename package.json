@@ -1,0 +1,39 @@
+{
+  "name": "vidatclient",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.10",
+    "@react-navigation/bottom-tabs": "^6.4.0",
+    "@react-navigation/drawer": "^6.5.0",
+    "@react-navigation/material-top-tabs": "^6.3.0",
+    "@react-navigation/native": "^6.0.13",
+    "@react-navigation/native-stack": "^6.9.1",
+    "expo": "~46.0.16",
+    "expo-location": "~14.3.0",
+    "expo-speech": "^10.3.0",
+    "expo-status-bar": "~1.4.0",
+    "jwt-decode": "^3.1.2",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-native": "0.69.6",
+    "react-native-calendars": "^1.1291.0",
+    "react-native-maps": "0.31.1",
+    "react-native-paper": "^5.0.0-rc.9",
+    "react-native-step-indicator": "^1.0.3",
+    "react-native-web": "~0.18.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@types/react": "^18.0.1",
+    "@types/react-native": "~0.69.1",
+    "typescript": "~4.3.5"
+  },
+  "private": true
+}
